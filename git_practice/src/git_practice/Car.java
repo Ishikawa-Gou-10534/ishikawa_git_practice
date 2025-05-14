@@ -4,7 +4,8 @@ public class Car{
 	String maker;
 	int displacement;
 	String color;
-
+	
+	
 	void start(){
 		System.out.println("発進します");
 	}
@@ -15,5 +16,13 @@ public class Car{
 
 	void curve(){
 		System.out.println("曲がります");
+	}
+	
+	
+	void showInfo(String maker,int displacement,String color)
+	{
+		System.out.println("メーカー："+ maker);
+		System.out.println("排気量："+ displacement+"cc");
+		System.out.println("色："+ color);
 	}
 }
