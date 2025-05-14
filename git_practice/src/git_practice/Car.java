@@ -18,6 +18,7 @@ public class Car{
 		System.out.println("曲がります");
 	}
 	
+	
 	void showInfo(String maker,int displacement,String color)
 	{
 		System.out.println("メーカー："+ maker);
