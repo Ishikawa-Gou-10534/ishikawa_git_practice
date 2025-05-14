@@ -19,7 +19,7 @@ public class Car{
 	}
 	
 	
-	void showInfo(String maker,int displacement,String color)
+	void showInfo()
 	{
 		System.out.println("メーカー："+ maker);
 		System.out.println("排気量："+ displacement+"cc");
